@@ -1,4 +1,5 @@
 import 'package:first_project/Login/homeLogin.dart';
+import 'package:first_project/Register/regHome.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApplication extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginHome(),
+      home: RegHouse(),
     );
   }
 }
